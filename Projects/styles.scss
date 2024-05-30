@@ -1,0 +1,12 @@
+//Variables
+$border-circle: 3px black ; 
+$background: #C0CFD5;
+$nigthbackground: #2C4048;
+$second-color: #B755C7;
+$title-fonts: normal  ;
+
+//Mixins
+@mixin modificar-tamaño($width, $height) {
+    width: $width;
+    height: height;
+  }
